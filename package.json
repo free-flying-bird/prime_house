@@ -6,7 +6,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
-    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/sokolik90/prime_house/issues"
   },
-  "homepage": "https://github.com/sokolik90/prime_house",
+  "homepage": "https://sokolik90.github.io/prime_house/",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",

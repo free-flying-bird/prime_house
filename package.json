@@ -8,11 +8,17 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokolik90/prime_house.git"
+  },
   "keywords": [],
   "author": "Sviatoslav Sokolov",
   "license": "ISC",
-
+  "bugs": {
+    "url": "https://github.com/sokolik90/prime_house/issues"
+  },
+  "homepage": "https://github.com/sokolik90/prime_house",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",

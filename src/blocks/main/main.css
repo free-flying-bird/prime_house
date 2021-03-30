@@ -1,0 +1,16 @@
+@import url('./__title/main__title.css');
+
+.main {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 720px) {
+    .main {
+      padding-top: 20px
+    }
+  }

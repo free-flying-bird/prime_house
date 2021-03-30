@@ -1,0 +1,20 @@
+@import url('./__logo/header__logo.css');
+@import url('./__title/header__title.css');
+
+.header {
+    min-height: 132px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #1a1919;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .header {
+      min-height: 110px;
+    }
+  }

@@ -1,16 +1,34 @@
-@import url('./__title/main__title.css');
+@import url(./__title/main__title.css);
+@import url(./__title/main__black-bg.css);
+@import url(./__subtitle/main__subtitle.css);
+
 
 .main {
     font-family: 'Inter', sans-serif;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 50px;
+    padding-top: 250px;
+    padding-right: 5px;
+    padding-left: 20px;
+    background-image: url(../../images/head_image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130vh;
+    margin-top: -215px;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1050px) {
+  .main {
+    padding-top: 250px;
+    padding-bottom: 30px;
+  }
+}
+
+  @media screen and (max-width: 500px) {
     .main {
-      padding-top: 20px
+      padding-left: 5px;
     }
   }

@@ -1,0 +1,10 @@
+.header__link {
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.header__link:hover {
+    cursor: pointer;
+    opacity: .9;
+    animation: rotate-jump 0.5s ease;
+}

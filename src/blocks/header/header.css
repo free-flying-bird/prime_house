@@ -4,17 +4,22 @@
 @import url('./__social-icon/header__social-icon.css');
 @import url('./__subtitle/header__subtitle.css');
 @import url('./__container/header__container.css');
+@import url('./__links/header__links.css');
+@import url('./__link/header__link.css');
+
 
 .header {
     min-height: 132px;
+    position: relative;
     display: flex;
     justify-content: space-between;
-    text-align:end;
+    text-align: center;
     flex-direction: row;
     align-items: center;
     padding-right: 5px;
     padding-left: 5px;
-    border-bottom: 1px solid #1a1919;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    z-index: 5;
   }
   
   @media screen and (max-width: 720px) {

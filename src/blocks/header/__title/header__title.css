@@ -1,13 +1,23 @@
 .header__title {
+    display: none;
     margin: 0;
     font-weight: bold;
-    font-size: 54px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 31px;
+    color: rgb(255, 255, 255);
+    max-width: 270px;
   }
   
   @media screen and (max-width: 720px) {
     .header__title {
       font-size: 30px;
       line-height: 31px;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .header__title {
+      font-size: 20px;
+      line-height: 21px;
     }
   }

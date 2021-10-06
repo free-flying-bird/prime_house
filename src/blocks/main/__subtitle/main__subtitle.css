@@ -1,0 +1,26 @@
+.main__subtitle {
+    margin-right: 50px;
+    margin-left: auto;
+    margin-top: 30px;
+    color: white;
+    z-index: -3;
+    position: relative;
+    font-size: 20px;
+    line-height: 21px;
+    max-width: max-content;
+    text-align: end;
+}
+
+.main__subtitle_animation {
+    z-index: 5;
+    animation: transport-from-bottom 1s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+    .main__subtitle {
+        max-width: 300px;
+        margin-right: 0;
+        font-size: 17px;
+        line-height: 18px;
+    }
+  }
